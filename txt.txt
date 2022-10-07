@@ -1,0 +1,93 @@
+html removed
+
+
+<section class="news-section">
+      <div class="newsimage-left">
+        <img class="newsimage1" src="images/news.jpg" alt="latestnews" />
+        <h1>Helix Nebula</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <!-- end of left side -->
+      <!--right side -->
+      <div class="newstext-right">
+        <div><h1>Latest News</h1></div>
+        <div class="newstext txt1">
+          <h2>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
+            eius?
+          </h2>
+        </div>
+        <div class="newstext txt2">
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+            repudiandae.
+          </h2>
+        </div>
+        <div class="newstext txt3">
+          <h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
+            nulla.
+          </h2>
+        </div>
+        <div class="newstext txt4">
+          <h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
+            nulla.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+
+    css remove 
+
+    .news-section {
+  display: flex;
+}
+.newsimage-left {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 30rem;
+}
+
+.newsimage1 {
+  width: auto;
+  min-height: 300px;
+}
+
+.newsimage-left h1,
+p {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.newstext-right {
+  border: 1px solid yellow;
+  background: white;
+}
+
+.newstext-right h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+
+.newstext {
+  text-align: center;
+}
+
+.newstext .txt1 {
+  border-bottom: 1px solid red;
+}
+
+
+The Rho Ophiuchi Complex is one of the closest — and most colorful — star-forming regions, just 360 light-years distant. This image represents 24 hours of exposure time on a 4.2-inch scope.
+
+
+Bode's Galaxy (M81) is one of the prototypical spiral galaxies, lying about 12 million light-years away in Ursa Major. This LRGB image represents 7.25 hours of exposure with a 16-inch scope.
+
+Green airglow from excited oxygen atoms fills the skies over Grand Staircase-Escalante National Monument. This image is a composite mosaic; sky images had an exposure time of 15 seconds and foreground images were exposed for 90 seconds. All images were taken at f/1.4 and ISO 3200.
